@@ -14,8 +14,8 @@ public class GroupedSkuPromotion extends PromotionType {
 		this.skus = skus;
 	}
 
-	public GroupedSkuPromotion(int priority, double fixedPrice, Set<String> skus) {
-		super(priority, fixedPrice);
+	public GroupedSkuPromotion(double fixedPrice, Set<String> skus) {
+		super(fixedPrice);
 		this.skus = skus;
 	}
 	

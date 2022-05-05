@@ -5,8 +5,8 @@ public class SingleSkuPromotion extends PromotionType {
 	private int quantity;
 	
 
-	public SingleSkuPromotion(int priority, double fixedPrice, String skuId, int quantity) {
-		super(priority, fixedPrice);
+	public SingleSkuPromotion(double fixedPrice, String skuId, int quantity) {
+		super(fixedPrice);
 		this.skuId = skuId;
 		this.quantity = quantity;
 	}

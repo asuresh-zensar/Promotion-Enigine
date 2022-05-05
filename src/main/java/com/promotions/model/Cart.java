@@ -2,8 +2,11 @@ package com.promotions.model;
 
 import java.util.List;
 
+import org.springframework.stereotype.Component;
+
 import com.promotions.type.PromotionType;
 
+@Component
 public class Cart {
 
 	private List<Item> items;
